@@ -1,0 +1,138 @@
+27-Feb-2024 00:25:45.364 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+27-Feb-2024 00:25:48.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+27-Feb-2024 00:25:48.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+27-Feb-2024 00:25:48.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+27-Feb-2024 00:25:48.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows Server 2022
+27-Feb-2024 00:25:48.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+27-Feb-2024 00:25:48.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+27-Feb-2024 00:25:48.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-21
+27-Feb-2024 00:25:48.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    21.0.1+12-LTS-29
+27-Feb-2024 00:25:48.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+27-Feb-2024 00:25:48.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\Administrator\Desktop\apache-tomcat-9.0.85
+27-Feb-2024 00:25:48.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\Administrator\Desktop\apache-tomcat-9.0.85
+27-Feb-2024 00:25:48.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Feb-2024 00:25:48.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+27-Feb-2024 00:25:48.269 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+27-Feb-2024 00:25:48.269 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Feb-2024 00:25:48.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2024 00:25:48.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.85\conf\logging.properties
+27-Feb-2024 00:25:48.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Feb-2024 00:25:48.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+27-Feb-2024 00:25:48.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Feb-2024 00:25:48.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+27-Feb-2024 00:25:48.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.85
+27-Feb-2024 00:25:48.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.85
+27-Feb-2024 00:25:48.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.85\temp
+27-Feb-2024 00:25:48.300 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.2.39]。
+27-Feb-2024 00:25:48.301 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+27-Feb-2024 00:25:48.302 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+27-Feb-2024 00:25:48.351 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.11 19 Sep 2023]
+27-Feb-2024 00:25:49.027 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+27-Feb-2024 00:25:49.197 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1370]毫秒内初始化
+27-Feb-2024 00:25:49.363 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+27-Feb-2024 00:25:49.369 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+27-Feb-2024 00:25:49.392 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\apache-tomcat-9.0.85\webapps\web\ROOT]
+27-Feb-2024 00:25:50.027 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Feb-2024 00:25:55.559 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\apache-tomcat-9.0.85\webapps\web\ROOT]的部署已在[6,112]毫秒内完成
+27-Feb-2024 00:25:55.572 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+27-Feb-2024 00:25:55.774 信息 [main] org.apache.catalina.startup.Catalina.start [6555]毫秒后服务器启动
+27-Feb-2024 03:03:38.432 信息 [http-nio-80-exec-2] org.apache.coyote.http11.Http11Processor.service 解析 HTTP 请求 header 错误
+ 注意：HTTP请求解析错误的进一步发生将记录在DEBUG级别。
+	java.lang.IllegalArgumentException: 在方法名称[0x030x000x00/*0xe00x000x000x000x000x00Cookie: ]中发现无效的字符串, HTTP 方法名必须是有效的符号.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+27-Feb-2024 14:38:09.693 严重 [http-nio-80-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为[]的上下文中，Servlet[PhpCGIServlet]的Servlet.service（）引发了具有根本原因的异常[PHP FastCGI instance failed.]
+	java.io.IOException: 管道的另一端上无任何进程。
+		at java.base/java.io.RandomAccessFile.readBytes0(Native Method)
+		at java.base/java.io.RandomAccessFile.readBytes(RandomAccessFile.java:400)
+		at java.base/java.io.RandomAccessFile.read(RandomAccessFile.java:434)
+		at php.java.bridge.http.RandomAccessFileInputStream.read(RandomAccessFileInputStream.java:74)
+		at php.java.bridge.http.FCGIConnectionInputStream.read(FCGIConnectionInputStream.java:58)
+		at php.java.bridge.http.FCGIInputStream.doRead(FCGIInputStream.java:65)
+		at php.java.bridge.http.FCGIInputStream.read(FCGIInputStream.java:54)
+		at php.java.servlet.fastcgi.FastCGIServlet.parseBody(FastCGIServlet.java:362)
+		at php.java.servlet.fastcgi.FastCGIServlet.execute(FastCGIServlet.java:433)
+		at php.java.servlet.fastcgi.FastCGIServlet.handle(FastCGIServlet.java:481)
+		at php.java.servlet.fastcgi.FastCGIServlet.doGet(FastCGIServlet.java:521)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+27-Feb-2024 19:56:59.836 严重 [http-nio-80-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为[]的上下文中，Servlet[PhpCGIServlet]的Servlet.service（）引发了具有根本原因的异常[PHP FastCGI instance failed.]
+	java.io.IOException: 管道的另一端上无任何进程。
+		at java.base/java.io.RandomAccessFile.readBytes0(Native Method)
+		at java.base/java.io.RandomAccessFile.readBytes(RandomAccessFile.java:400)
+		at java.base/java.io.RandomAccessFile.read(RandomAccessFile.java:434)
+		at php.java.bridge.http.RandomAccessFileInputStream.read(RandomAccessFileInputStream.java:74)
+		at php.java.bridge.http.FCGIConnectionInputStream.read(FCGIConnectionInputStream.java:58)
+		at php.java.bridge.http.FCGIInputStream.doRead(FCGIInputStream.java:65)
+		at php.java.bridge.http.FCGIInputStream.read(FCGIInputStream.java:54)
+		at php.java.servlet.fastcgi.FastCGIServlet.parseBody(FastCGIServlet.java:362)
+		at php.java.servlet.fastcgi.FastCGIServlet.execute(FastCGIServlet.java:433)
+		at php.java.servlet.fastcgi.FastCGIServlet.handle(FastCGIServlet.java:481)
+		at php.java.servlet.fastcgi.FastCGIServlet.doGet(FastCGIServlet.java:521)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+27-Feb-2024 22:07:32.695 信息 [http-nio-80-exec-3] org.apache.coyote.http11.Http11Processor.service 解析 HTTP 请求 header 错误
+ 注意：HTTP请求解析错误的进一步发生将记录在DEBUG级别。
+	java.lang.IllegalArgumentException: 在方法名称[0x030x000x00/*0xe00x000x000x000x000x00Cookie: ]中发现无效的字符串, HTTP 方法名必须是有效的符号.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)

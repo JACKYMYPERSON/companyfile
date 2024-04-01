@@ -1,0 +1,28 @@
+25-Jan-2024 04:00:02.827 信息 [http-nio-80-exec-3] org.apache.coyote.http11.Http11Processor.service 解析 HTTP 请求 header 错误
+ 注意：HTTP请求解析错误的进一步发生将记录在DEBUG级别。
+	java.lang.IllegalArgumentException: 在方法名称[0x040x010x00PpTi40x00...]中发现无效的字符串, HTTP 方法名必须是有效的符号.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+25-Jan-2024 04:00:03.905 信息 [http-nio-80-exec-6] org.apache.coyote.http11.Http11Processor.service 解析 HTTP 请求 header 错误
+ 注意：HTTP请求解析错误的进一步发生将记录在DEBUG级别。
+	java.lang.IllegalArgumentException: 在方法名称[0x040x010x00PpTi40x00...]中发现无效的字符串, HTTP 方法名必须是有效的符号.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+25-Jan-2024 10:57:30.907 信息 [http-nio-80-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[Xe5/cevERpYUzkCjpuRIhcGga1sBIJ492g3y/d0WAglKcbt+0r3htZGUoe/G+oFbtAUbxcOL1862y+lzB5iS1u8iJF40mYfSYdoi1eY0kgK4A1tQXdZ3+3c5BxWLGhDbIiEHAUHrNpUzhWVRPbfX+HdAzEicDSVtip2sqJgMQ2PNfikZ6inD2lsPh9K35Er3xPCTbwQjCmjPOItoBTDUVIi+OTmRQcxHaHVGflWSUJWxTPaQX5ZHOAzcBZL02kU2M50j80DK47DNCrM+xmWY1t+RaeEOqhVVW5xY4CepL+2v922/dMcSDaL7zwrpy2DOIKrl+WXUqptqvAyxLhjLUA==]。将忽略该cookie。
+ 注意：此错误的进一步出现将记录在调试级别。
